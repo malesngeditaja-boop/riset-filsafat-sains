@@ -78,45 +78,109 @@ ETC highlights two frequent errors:
 
 ---
 
-## 5. Formal Model (Minimal, Usable)
+## 5. Formal Model: Rule Block
 
-### 5.1. Types
+This section gives ETC its minimal formal spine. The formalism is deliberately modest: it is not a full logic of religion and science, and it does not prove which scientific or tafsir claim is true. It only defines which comparisons are well typed, which claims are incomplete, and which layers may be revised.
 
-Define a minimal type universe:
+### 5.1. Typed objects
 
-- `Text` for `Q`
-- `Interpretation` for `Ti(Q)`
-- `Data` for `D`
-- `Model` for `Mj(D)`
+Let the universe of discourse contain four object classes:
 
-### 5.2. Conflict typing rule
+- `Text`: Qur’anic textual units treated as mutawatir lafaz.
+- `Interpretation`: human interpretive propositions about `Text`.
+- `Data`: empirical observations, measurements, or processed evidential records.
+- `Model`: scientific explanatory structures built to account for `Data`.
 
-`Conflict(x, y)` is well‑typed only when the comparison is licensed (same type, or an explicit bridge rule).
+For the paper’s notation:
 
-ETC treats these as default meaningful conflicts:
+- `Q ∈ Text`
+- `Ti(Q) ∈ Interpretation`
+- `D ∈ Data`
+- `Mj(D) ∈ Model`
 
-- `Conflict(Model, Interpretation)`
-- `Conflict(Model, Model)`
-- `Conflict(Interpretation, Interpretation)`
+`Ti(Q)` is not identical to `Q`; it is an interpretive proposition generated from `Q` under linguistic, contextual, and usul-based constraints. Likewise, `Mj(D)` is not identical to `D`; it is a model or model-family constructed to explain, organize, predict, or infer from `D`.
 
-And treats `Conflict(Model, Text)` as ill‑typed unless the interpretive bridge is made explicit.
+### 5.2. Bridge relation
 
-### 5.3. Constraint sets
+Define a bridge relation:
 
-- `C_text`: `Q` immutable.
-- `C_tafsir`: interpretive revisions must satisfy tafsir constraints.
-- `C_science`: model revisions must track evidence and assumptions.
+`Bridge(Q, Ti(Q))`
 
-### 5.4. Restricted revision
+This relation states that an interpretation `Ti(Q)` claims textual warrant from `Q`. A public claim of conflict with the Qur’an is formally incomplete unless it specifies the bridge from `Q` to a concrete `Ti(Q)`.
 
-When a meaningful conflict is diagnosed, revision applies only in revisable layers:
+### 5.3. Conflict predicate
 
-- revise `Ti(Q)` under `C_tafsir`, and/or
-- revise `Mj(D)` under `C_science`.
+Define:
 
-But never revise `Q`.
+`Conflict(x, y)`
 
-(Operational memo basis: `agent_reports/MATH_WORKED_EXAMPLE_ETC.md`; formal apparatus anchors: AGM 1985; Long et al. 2022; Thagard 1992.)
+as a relation of asserted incompatibility between two propositions, models, or interpretive commitments.
+
+ETC treats `Conflict(x, y)` as well typed only when at least one of the following is true:
+
+1. `type(x) = type(y)`.
+2. `{type(x), type(y)} = {Model, Interpretation}`.
+3. There is an explicit bridge relation that converts a text-level claim into an interpretive proposition.
+
+Therefore:
+
+- `Conflict(Mj(D), Ti(Q))` is well typed.
+- `Conflict(Mj1(D), Mj2(D))` is well typed.
+- `Conflict(Ti(Q), Tk(Q))` is well typed.
+- `Conflict(Mj(D), Q)` is ill typed unless the relevant `Ti(Q)` is made explicit.
+
+This is ETC’s primary diagnostic move.
+
+### 5.4. Diagnosis function
+
+Define a diagnosis function:
+
+`Diagnose(Claim) → {type_error, interpretive_conflict, model_conflict, mixed_conflict, unresolved}`
+
+Rules:
+
+1. If a claim compares `Model` directly with `Text`, return `type_error` unless a bridge is supplied.
+2. If a claim compares `Model` with `Interpretation`, return `interpretive_conflict`.
+3. If a claim compares `Model` with `Model`, return `model_conflict`.
+4. If the source of incompatibility cannot be located, return `unresolved`.
+
+### 5.5. Constraint sets
+
+ETC uses three constraint families:
+
+- `C_text`: `Q` is not revised; the text is not treated as an empirical hypothesis; the model does not evaluate tawatur.
+- `C_tafsir`: interpretive revision must satisfy Arabic linguistic plausibility, textual context, relevant qarinah, usul-based reasoning, non-arbitrary relation to earlier tafsir discourse, and no forced concordism.
+- `C_science`: scientific model revision must track evidential accountability to `D`, explicit assumptions, explanatory and predictive relevance where applicable, openness to revision under new evidence, and no elevation of a model into a revelation-like authority.
+
+### 5.6. Restricted revision operator
+
+Define restricted revision:
+
+`Rev(x | C)`
+
+as a revision operation permitted only when `x` belongs to a revisable type and the revised output satisfies the relevant constraint set.
+
+Allowed:
+
+- `Rev(Ti(Q) | C_tafsir)`
+- `Rev(Mj(D) | C_science)`
+
+Not allowed:
+
+- `Rev(Q | C_science)`
+- `Rev(Q | C_tafsir)`
+
+The reason is not that interpretive claims are immune from evidence, but that `Q` and `Ti(Q)` have different epistemic types. Scientific evidence may pressure an interpretation that makes claims about the natural world; it does not revise the mutawatir text as text.
+
+### 5.7. Transfer-of-certainty fallacy
+
+ETC rejects the automatic inference:
+
+`Cert(Q)=1 ⇒ Cert(Ti(Q))=1`
+
+The certainty of the text’s transmission does not automatically transfer to every human interpretation of that text. A particular `Ti(Q)` may be strong, even qath’i-limited, but that requires a separate hermeneutic argument.
+
+(Expanded operational basis: `agent_reports/FORMAL_RULE_BLOCK_ETC.md`; worked-example formal basis: `agent_reports/MATH_WORKED_EXAMPLE_ETC.md`; formal apparatus anchors: AGM 1985; Long et al. 2022; Thagard 1992.)
 
 **Citation anchors (Formal model):** Alchourrón et al. (1985); Long et al. (2022); Thagard (1992); Delgrande & Schaub (2003).
 
