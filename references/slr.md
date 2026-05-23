@@ -42,25 +42,26 @@ How should a paper distinguish Qur'anic text, human tafsir, empirical data, and 
    - URL: https://etheses.dur.ac.uk/9390/
    - Why it matters: foundational critical study of one of the major scientific exegesis works.
 
-7. **The Qur’an and Modern Science: Observations on Methodology**. *American Journal of Islam and Society*.
-   - URL: https://www.ajis.org/index.php/ajiss/article/view/2641
+7. **Khalil, Imad (1991)**. *The Qur’an and Modern Science: Observations on Methodology*. *American Journal of Islam and Society*, 8(1), 1–13.
+   - DOI: https://doi.org/10.35632/ajis.v8i1.2641
    - Why it matters: useful for framing methodology, science, and theory-of-knowledge concerns.
 
-8. **Significance of Science and Scientific Thought from the Islamic Perspective**. *QURANICA: International Journal of Quranic Research*.
+8. **Shaikh Mohd Saifuddeen Shaikh Mohd Salleh & Azizan Baharuddin (2011)**. *Significance of Science and Scientific Thought from the Islamic Perspective*. *QURANICA: International Journal of Quranic Research*, 1(1), 73–87.
    - URL: https://ejournal.um.edu.my/index.php/quranica/article/view/5268
-   - Why it matters: useful for the broader Islam-and-science framing while staying in English.
+   - Why it matters: useful for broader Islam-and-science framing while staying in English.
 
 9. **Exploring Scientific Exegesis (Al-Tafsīr Al-‘Ilmī) of the Quran: Merits, Challenges, and Interpretive Boundaries**. *Journal of Religion and Society*.
    - URL: https://www.islamicreligious.com/index.php/Journal/article/view/150
-   - Why it matters: explicitly covers merits, challenges, and interpretive boundaries.
+   - Why it matters: potentially relevant, but venue identity must be audited (name/ISSN ambiguity). Treat as **flagged** until verified.
 
 10. **The Development and Challenges of Scientific Qur'anic Interpretation: a Comparative Study Between Malaysia and Indonesia**. *Al-Bayan: Journal of Qur'an and Hadith Studies*.
     - URL: https://brill.com/abstract/journals/jqhs/23/1/article-p27_2.xml
     - Why it matters: English-language comparative work on the development and challenges of scientific interpretation.
 
-11. **Islam and Pseudoscience**.
-    - URL: https://www.cambridge.org/core/elements/D233C9A3D11F1B04398BDE94E006E313
-    - Why it matters: useful for sharpening the paper's boundary against pseudo-scientific concordism and overclaim.
+11. **Bigliardi, Stefano (2025)**. *Islam and Pseudoscience*. Cambridge Elements (Elements in Islam and Science).
+    - DOI: https://doi.org/10.1017/9781009608237
+    - URL: https://www.cambridge.org/core/elements/islam-and-pseudoscience/D233C9A3D11F1B04398BDE94E006E313
+    - Why it matters: sharpens the paper's boundary against pseudo-scientific concordism and overclaim; includes discussion of iʿjāz ʿilmī and related malpractices.
 
 ### B. Formal apparatus for the model
 
@@ -101,6 +102,21 @@ How should a paper distinguish Qur'anic text, human tafsir, empirical data, and 
 21. **A Consistency-Based Approach for Belief Change**.
    - URL: https://www.sciencedirect.com/science/article/pii/S0004370203001115
    - Why it matters: useful for formalizing revision as preserving as much consistency as possible.
+
+### C. Worked example anchors (human origins: common ancestry vs common design)
+
+22. **Futuyma, Douglas J. & Kirkpatrick, Mark (2017)**. *Evolution* (4th ed.). Sinauer Associates.
+   - ISBN: 978-1-60535-696-9
+   - Why it matters: standard evolutionary biology textbook anchor for describing `Mj_CA` without overclaiming.
+
+23. **Sober, Elliott (2008)**. *Evidence and Evolution: The Logic Behind the Science*. Cambridge University Press.
+   - ISBN: 978-0-521-87188-4
+   - Why it matters: philosophy-of-biology anchor for how similarity counts as evidence for common ancestry; also useful for explaining evidence language in the worked example.
+
+24. **Okasha, Samir (2002)**. *Philosophy of Science: A Very Short Introduction* (1st ed.). Oxford University Press.
+   - Print ISBN: 978-0-19-280283-5
+   - DOI: https://doi.org/10.1093/actrade/9780192802835.001.0001
+   - Why it matters: general philosophy-of-science anchor for model talk, demarcation, and avoiding “science says” overclaim.
 
 ## Working selection logic
 
