@@ -1,6 +1,10 @@
 # Epistemic Type‑Constraint Model (ETC)
 ## A Framework for Diagnosing Misclassified Qur’an–Science Conflicts
 
+**Abstract.** This paper argues that many alleged conflicts between science and the Qur’an are misclassified because the Qur’anic text, human tafsir, empirical data, and scientific models are treated as if they occupy the same epistemic level. The Epistemic Type-Constraint Model (ETC) proposes a minimal diagnostic scaffold built from typed objects, bridge relations, constraints, and restricted revision. The model distinguishes meaningful conflicts, typically between scientific models and interpretive claims, from category mistakes that arise when interpretive layers are collapsed into the text itself. The paper is intentionally limited: it does not claim that all tensions dissolve, that science cannot challenge religious commitments, or that the framework resolves substantive theological disputes.
+
+**Keywords:** Qur’an and science; scientific exegesis; tafsir ilmī; epistemic types; belief revision; constraint satisfaction; philosophy of science
+
 **Draft status:** lane‑assembled working draft (not yet submission‑ready).
 
 **Core claim (calibrated):** Many public disputes labeled “science vs Qur’an” are misclassified because four epistemic objects—`Q` (Qur’anic text), `Ti(Q)` (human interpretation), `D` (empirical data), and `Mj(D)` (scientific model built from data)—are treated as if they occupy one level. ETC proposes a minimal diagnostic scaffold (type‑checking + constraints + restricted revision) to identify which conflicts are meaningful (typically `Conflict(Mj(D), Ti(Q))`) and which are category mistakes (often `Conflict(Mj(D), Q)` stated without an interpretive bridge).
@@ -21,7 +25,9 @@ The ETC contribution is not to relitigate the entire Qur’an‑science relation
 
 ---
 
-## 2. Problem Setup: Four Epistemic Objects
+## 2. Literature Review and Conceptual Background
+
+### 2.1. Four Epistemic Objects
 
 We distinguish four objects:
 
@@ -35,37 +41,19 @@ The ETC hypothesis is local and testable:
 1) A large class of alleged conflicts is misclassified because it is stated as `Conflict(Mj(D), Q)` without making explicit the interpretive bridge that produced a specific `Ti(Q)`.
 2) Once the bridge is made explicit, the meaningful conflict class is often `Conflict(Mj(D), Ti(Q))`, or a competition among models `Conflict(Mj1(D), Mj2(D))`, rather than model‑against‑text.
 
----
-
-## 3. Tafsir Boundary: What Is Fixed and What Is Revisable
-
-### 3.1. `Q` vs `Ti(Q)`
+### 2.2. Tafsir boundary and scientific exegesis
 
 In ETC, `Q` is not an ordinary hypothesis subject to revision. `Ti(Q)`, by contrast, is the interpretive layer: the set of propositions that connect a text to particular meanings, including bridges to modern scientific taxonomies.
 
-### 3.2. Default revisability and “qath’i (limited)” status
-
 ETC does not assume that all interpretations are weak, nor that all are equally revisable. It proposes a conservative default: most science‑linked readings should be treated as *nazharī* (revisable) unless a strong hermeneutic case is made that a specific interpretive proposition has a “qath’i‑limited” status.
-
-### 3.3. Anti‑cocoklogi constraint (tafsir‑side)
 
 ETC requires a minimal `C_tafsir` constraint set: revisions to interpretive propositions must respect Arabic linguistic plausibility, immediate textual context (siyāq/qarā’in), and must not treat contemporary scientific models as the primary driver of meaning. Scientific models can function as compatibility checks, not as meaning‑generators.
 
 (Operational memo basis: `agent_reports/TAFSIR_BOUNDARY_ETC.md`.)
 
-**Citation anchors (Tafsir boundary):** Ansari (2004); Mir (2004); Naguib (2019); Mohd‑Noor (2013).
-
----
-
-## 4. Philosophy of Science Boundary: Data, Models, and Overclaim
-
-### 4.1. `D` is not `Mj(D)`
+### 2.3. Science boundary: data, models, and overclaim
 
 Scientific practice distinguishes data from the models used to organize and explain it. Data are measurement‑laden and processed, but still conceptually distinct from explanatory structures. A key ETC motivation is to block the move “science says X” when what is meant is “a current model suggests X under assumptions A.”
-
-(Load‑bearing basis for the data/model distinction: Leonelli 2019; Antoniou 2021.)
-
-### 4.2. Transfer‑of‑certainty error
 
 ETC highlights two frequent errors:
 
@@ -74,15 +62,13 @@ ETC highlights two frequent errors:
 
 (Operational memo basis: `agent_reports/SCIENCE_WORKED_EXAMPLE_ETC.md`.)
 
-**Citation anchors (Science boundary):** Leonelli (2019); Antoniou (2021); Okasha (2002).
-
 ---
 
-## 5. Formal Model: Rule Block
+## 3. Method / Formal Framework
 
 This section gives ETC its minimal formal spine. The formalism is deliberately modest: it is not a full logic of religion and science, and it does not prove which scientific or tafsir claim is true. It only defines which comparisons are well typed, which claims are incomplete, and which layers may be revised.
 
-### 5.1. Typed objects
+### 3.1. Typed objects
 
 Let the universe of discourse contain four object classes:
 
@@ -100,7 +86,7 @@ For the paper’s notation:
 
 `Ti(Q)` is not identical to `Q`; it is an interpretive proposition generated from `Q` under linguistic, contextual, and usul-based constraints. Likewise, `Mj(D)` is not identical to `D`; it is a model or model-family constructed to explain, organize, predict, or infer from `D`.
 
-### 5.2. Bridge relation
+### 3.2. Bridge relation
 
 Define a bridge relation:
 
@@ -108,7 +94,7 @@ Define a bridge relation:
 
 This relation states that an interpretation `Ti(Q)` claims textual warrant from `Q`. A public claim of conflict with the Qur’an is formally incomplete unless it specifies the bridge from `Q` to a concrete `Ti(Q)`.
 
-### 5.3. Conflict predicate
+### 3.3. Conflict predicate
 
 Define:
 
@@ -131,7 +117,7 @@ Therefore:
 
 This is ETC’s primary diagnostic move.
 
-### 5.4. Diagnosis function
+### 3.4. Diagnosis function
 
 Define a diagnosis function:
 
@@ -144,7 +130,7 @@ Rules:
 3. If a claim compares `Model` with `Model`, return `model_conflict`.
 4. If the source of incompatibility cannot be located, return `unresolved`.
 
-### 5.5. Constraint sets
+### 3.5. Constraint sets
 
 ETC uses three constraint families:
 
@@ -152,7 +138,7 @@ ETC uses three constraint families:
 - `C_tafsir`: interpretive revision must satisfy Arabic linguistic plausibility, textual context, relevant qarinah, usul-based reasoning, non-arbitrary relation to earlier tafsir discourse, and no forced concordism.
 - `C_science`: scientific model revision must track evidential accountability to `D`, explicit assumptions, explanatory and predictive relevance where applicable, openness to revision under new evidence, and no elevation of a model into a revelation-like authority.
 
-### 5.6. Restricted revision operator
+### 3.6. Restricted revision operator
 
 Define restricted revision:
 
@@ -172,7 +158,7 @@ Not allowed:
 
 The reason is not that interpretive claims are immune from evidence, but that `Q` and `Ti(Q)` have different epistemic types. Scientific evidence may pressure an interpretation that makes claims about the natural world; it does not revise the mutawatir text as text.
 
-### 5.7. Transfer-of-certainty fallacy
+### 3.7. Transfer-of-certainty fallacy
 
 ETC rejects the automatic inference:
 
@@ -182,43 +168,39 @@ The certainty of the text’s transmission does not automatically transfer to ev
 
 (Expanded operational basis: `agent_reports/FORMAL_RULE_BLOCK_ETC.md`; worked-example formal basis: `agent_reports/MATH_WORKED_EXAMPLE_ETC.md`; formal apparatus anchors: AGM 1985; Long et al. 2022; Thagard 1992.)
 
-**Citation anchors (Formal model):** Alchourrón et al. (1985); Long et al. (2022); Thagard (1992); Delgrande & Schaub (2003).
-
 ---
 
-## 6. Worked Example: Common Ancestry vs Common Design (Human Origins)
+## 4. Worked Example
 
-### 6.1. Scope
+### 4.1. Scope
 
-This paper uses one worked example: human origins debates framed as “common ancestry” vs “common design.” This counts as a single example because both positions are competing model‑level hypotheses about the same target domain and are commonly mapped onto a shared cluster of interpretive claims about Adam and human unity.
+This paper uses one worked example: human origins debates framed as “common ancestry” vs “common design.” This counts as a single example because both positions are competing model-level hypotheses about the same target domain and are commonly mapped onto a shared cluster of interpretive claims about Adam and human unity.
 
 (See scope memo: `agent_reports/WORKED_EXAMPLE_SCOPE_ETC.md`.)
 
-### 6.2. Tafsir‑side decomposition
+### 4.2. Tafsir-side decomposition
 
-Public claims typically move from a small set of textual motifs (creation from earth; Adam; human unity) to stronger propositions such as “Adam must be the first biological human with no biological ancestry” or “humanity must pass through a single‑couple genetic bottleneck.” ETC classifies these stronger propositions as `Ti(Q)`, not `Q`, unless a special hermeneutic argument is provided.
+Public claims typically move from a small set of textual motifs (creation from earth; Adam; human unity) to stronger propositions such as “Adam must be the first biological human with no biological ancestry” or “humanity must pass through a single-couple genetic bottleneck.” ETC classifies these stronger propositions as `Ti(Q)`, not `Q`, unless a special hermeneutic argument is provided.
 
 (See tafsir worked example memo: `agent_reports/TAFSIR_WORKED_EXAMPLE_ETC.md`.)
 
-### 6.3. Science‑side level mapping
+### 4.3. Science-side level mapping
 
 ETC represents the scientific side as `D` (data) plus `Mj(D)` (models). “Common ancestry” is treated as a model family `Mj_CA`; “common design” as a model/interpretive family `Mj_CD`. ETC does not assume either is true; it diagnoses how conflicts are stated.
 
 (See science worked example companion: `agent_reports/SCIENCE_WORKED_EXAMPLE_ETC.md`.)
 
-### 6.3.1. Model clarification (minimum for submission)
+### 4.3.1. Model clarification (minimum for submission)
 
-To keep the worked example honest and non‑hand‑wavy, the paper must anchor `Mj_CA` (common ancestry) to standard evolutionary biology usage, and must explicitly state what epistemic status is being assigned to “common design.”
+To keep the worked example honest and non-hand-wavy, the paper must anchor `Mj_CA` (common ancestry) to standard evolutionary biology usage, and must explicitly state what epistemic status is being assigned to “common design.”
 
 - `Mj_CA` is treated as a family of evolutionary models in mainstream biology (textbook anchor: Futuyma & Kirkpatrick, *Evolution*, 4th ed., 2017).
-- Claims about what counts as evidence for common ancestry (and how evidence should be understood) are treated as philosophy‑of‑biology questions, not as slogans (anchor: Sober, *Evidence and Evolution*, 2008).
+- Claims about what counts as evidence for common ancestry (and how evidence should be understood) are treated as philosophy-of-biology questions, not as slogans (anchor: Sober, *Evidence and Evolution*, 2008).
 - “Common design” is commonly presented as an explanatory alternative that may be metaphysical or theological in character; unless it is specified in a way that yields discriminating, testable expectations relative to `D`, ETC classifies it as *interpretive/metaphysical* rather than as a competing `Model` in the strict sense.
 
-(General philosophy‑of‑science anchor for model talk, demarcation, and overclaim: Okasha, *Philosophy of Science: A Very Short Introduction*, 2002.)
+(General philosophy-of-science anchor for model talk, demarcation, and overclaim: Okasha, *Philosophy of Science: A Very Short Introduction*, 2002.)
 
-**Citation anchors (Worked example, science-side):** Futuyma & Kirkpatrick (2017); Sober (2008); Okasha (2002).
-
-### 6.4. Diagnosis and revision
+### 4.4. Diagnosis and revision
 
 A misclassified public statement often takes the form:
 
@@ -226,7 +208,7 @@ A misclassified public statement often takes the form:
 
 ETC diagnosis:
 
-- `type(Mj_CA)=Model`, `type(Q_human)=Text` → ill‑typed unless the interpretive bridge is provided.
+- `type(Mj_CA)=Model`, `type(Q_human)=Text` → ill-typed unless the interpretive bridge is provided.
 
 A properly decomposed statement is:
 
@@ -234,7 +216,7 @@ A properly decomposed statement is:
 
 ETC diagnosis:
 
-- `Model` vs `Interpretation` → well‑typed and meaningful.
+- `Model` vs `Interpretation` → well-typed and meaningful.
 
 The restricted revision response is then constrained:
 
@@ -245,29 +227,29 @@ The restricted revision response is then constrained:
 
 ---
 
-## 7. Discussion
+## 5. Discussion
 
-### 7.1. What ETC contributes
+### 5.1. What ETC contributes
 
-ETC contributes a discipline of *conflict location*. It does not replace tafsir, nor does it replace scientific inquiry. It aims to make explicit the epistemic objects being compared, prevent transfer‑of‑certainty errors, and restrict revision so that the framework cannot be used as a carte blanche for concordism or for immunizing any specific interpretation.
+ETC contributes a discipline of *conflict location*. It does not replace tafsir, nor does it replace scientific inquiry. It aims to make explicit the epistemic objects being compared, prevent transfer-of-certainty errors, and restrict revision so that the framework cannot be used as a carte blanche for concordism or for immunizing any specific interpretation.
 
-### 7.2. Why constraints matter
+### 5.2. Why constraints matter
 
 Scientific exegesis debates frequently fail because they operate with implicit bridges and implicit revision policies. ETC makes both explicit: the bridge must be written as `Ti(Q)`, and revision must be constrained.
 
 ---
 
-## 8. Limitations
+## 6. Limitations
 
-1) The worked example is currently framed at the level of diagnosis. A submission‑ready version must append a textual basis appendix listing the specific verses used (Arabic + transliteration + translation) and must justify the interpretive classification decisions.
-2) A submission‑ready version should include a small, carefully chosen set of philosophy‑of‑biology sources clarifying what counts as `Mj_CA` and what would qualify (or fail to qualify) as `Mj_CD` as a scientific model.
-3) The current SLR seed corpus is strong in critique + formal apparatus + data/model distinction, but needs direct usūl/tafsir sources for the qath’i‑limited vs nazhari boundary rule.
+1) The worked example is currently framed at the level of diagnosis. A submission-ready version must append a textual basis appendix listing the specific verses used (Arabic + transliteration + translation) and must justify the interpretive classification decisions.
+2) A submission-ready version should include a small, carefully chosen set of philosophy-of-biology sources clarifying what counts as `Mj_CA` and what would qualify (or fail to qualify) as `Mj_CD` as a scientific model.
+3) The current SLR seed corpus is strong in critique + formal apparatus + data/model distinction, but needs direct usūl/tafsir sources for the qath’i-limited vs nazhari boundary rule.
 
 (Reviewer stress test: `agent_reports/REVIEWER_REPORT_ETC_COMMON_ANCESTRY.md`.)
 
 ---
 
-## 9. Conclusion
+## 7. Conclusion
 
 Before asking whether a conflict can be reconciled, ETC asks whether the conflict has even been stated at the right epistemic level. By separating text, interpretation, data, and models—and by restricting revision through constraints—the framework converts a diffuse slogan (“science vs Qur’an”) into a set of explicit, auditable comparisons.
 
