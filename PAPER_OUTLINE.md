@@ -3,17 +3,13 @@
 ## Working title
 **Epistemic Type-Constraint Model: A Framework for Distinguishing Qur'anic Text, Human Tafsir, Empirical Data, and Scientific Models**
 
-## Core thesis
-Many alleged conflicts between science and the Qur'an are misclassified because the Qur'anic text, human tafsir, empirical data, and scientific models are treated as if they occupy the same epistemic level.
+## Abstract
+This paper argues that many alleged conflicts between science and the Qur'an are misclassified because the Qur'anic text, human tafsir, empirical data, and scientific models are treated as if they occupy the same epistemic level. The Epistemic Type-Constraint Model (ETC) proposes a minimal diagnostic scaffold built from typed objects, bridge relations, constraints, and restricted revision. The model is designed to distinguish meaningful conflicts, typically between scientific models and interpretive claims, from category mistakes that arise when interpretive layers are collapsed into the text itself. The paper is intentionally limited: it does not claim that all tensions disappear, that science cannot challenge religious commitments, or that the framework resolves substantive theological disputes.
 
-The paper's claim is limited and specific:
-- `Q` is the Qur'anic text as mutawatir lafaz.
-- `Ti(Q)` is human interpretation of `Q`.
-- `D` is empirical data.
-- `Mj(D)` is a scientific model built from `D`.
-- The strongest disagreement usually lies between `Mj(D)` and `Ti(Q)`, not between `Mj(D)` and `Q`.
+## Keywords
+Qur'an and science; scientific exegesis; tafsir ilmī; epistemic types; belief revision; constraint satisfaction; philosophy of science
 
-## Section 1. Introduction
+## 1. Introduction
 
 ### Purpose
 Frame the problem without overstating it.
@@ -36,14 +32,16 @@ Frame the problem without overstating it.
 - Naguib
 - Ismail & Asnawi
 
-## Section 2. Problem Setup
+## 2. Literature Review and Conceptual Background
 
 ### Purpose
-Define the paper's target object.
+Show the debate ETC is entering and the gaps it addresses.
 
 ### Points to make
 - Distinguish text, interpretation, data, and model.
 - Explain why these four should not be collapsed.
+- Show how scientific exegesis has been critiqued for over-reading.
+- Show why philosophy of science insists on data/model distinctions.
 - State that the paper is about epistemic classification before reconciliation.
 
 ### Working claim
@@ -53,7 +51,7 @@ The first mistake in many Qur'an-science debates is not a bad conclusion; it is 
 - Do not treat the paper as a blanket defense of scientific exegesis.
 - Do not treat the paper as a rejection of scientific findings.
 
-## Section 3. Tafsir Boundary
+## 3. Tafsir Boundary
 
 ### Purpose
 Define what is fixed and what is revisable on the textual side.
@@ -76,7 +74,7 @@ Define what is fixed and what is revisable on the textual side.
 - Luqman et al.
 - Ansory & Kholis
 
-## Section 4. Philosophy of Science Boundary
+## 4. Philosophy of Science Boundary
 
 ### Purpose
 Explain what science is allowed to do in the model.
@@ -85,7 +83,7 @@ Explain what science is allowed to do in the model.
 - Separate data from model.
 - Separate empirical support from ontological interpretation.
 - Science can pressure a model or an interpretation, but not the tawatur status of the text.
-- The paper should avoid saying "science says X" when what is really meant is "a model currently suggests X."
+- The paper should avoid saying "science says X" when what is really meant is "a model currently suggests X." 
 
 ### What not to claim
 - Do not treat scientific models as final truth.
@@ -97,7 +95,7 @@ Explain what science is allowed to do in the model.
 - Data/model philosophy sources in `references/slr.md`
 - Islam and Pseudoscience
 
-## Section 5. Formal Model
+## 5. Method / Formal Framework
 
 ### Purpose
 Present the minimal formal apparatus.
@@ -128,7 +126,7 @@ Present the minimal formal apparatus.
 - Thagard
 - Belief revision under restrictions
 
-## Section 6. Constraint and Diagnosis
+## 6. Constraint and Diagnosis
 
 ### Purpose
 Show how the model handles disagreement without collapsing into either relativism or concordism.
@@ -142,7 +140,7 @@ Show how the model handles disagreement without collapsing into either relativis
 - Do not claim diagnosis always resolves the conflict.
 - Do not claim every mismatch is due to interpretive error.
 
-## Section 7. Limited Revision
+## 7. Limited Revision
 
 ### Purpose
 Explain what can move and what cannot.
@@ -156,7 +154,7 @@ Explain what can move and what cannot.
 - Do not imply the framework immunizes all interpretations.
 - Do not imply empirical pressure automatically determines the correct tafsir.
 
-## Section 8. Worked Example
+## 8. Worked Example
 
 ### Purpose
 Demonstrate the model on one concrete case.
@@ -175,7 +173,7 @@ Demonstrate the model on one concrete case.
 - Do not pick a case without enough literature support.
 - Do not overclaim that the example settles the broader debate.
 
-## Section 9. Discussion
+## 9. Discussion
 
 ### Purpose
 State what the model contributes.
@@ -191,7 +189,7 @@ State what the model contributes.
 - Do not claim universal applicability.
 - Do not treat the model as replacing tafsir or science.
 
-## Section 10. Limitations
+## 10. Limitations
 
 ### Purpose
 Show the paper knows its own limits.
@@ -202,7 +200,7 @@ Show the paper knows its own limits.
 - The model is only as good as the formal definitions and the chosen case study.
 - The paper does not prove scientific exegesis as a general method.
 
-## Section 11. Conclusion
+## 11. Conclusion
 
 ### Purpose
 Close narrowly and clearly.
