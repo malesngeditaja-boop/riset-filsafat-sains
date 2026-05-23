@@ -1,145 +1,282 @@
-# SLR Seed Corpus
+# SLR Report for the ETC Paper
 
-This file is the first-pass literature map for the paper on `Epistemic Type-Constraint Model`.
+This file is the structured SLR working report for the paper on the **Epistemic Type-Constraint Model (ETC)**. It replaces the earlier seed-corpus format with a cleaner review protocol, source-status map, and manager checklist.
 
-Only English-language sources are listed here.
+Language rule: **English-only international literature**. Indonesian-language papers are excluded from the core corpus for this paper.
 
-## Review question
+Access rule: use legal access paths only: publisher pages, open access repositories, institutional access, or author manuscripts when legally available. Do not use or direct retrieval through Sci-Hub.
+
+Verification rule: do not claim that a source is Scopus-indexed unless Scopus has actually been checked. In this file, items are marked `needs Scopus check` unless a later audit explicitly verifies indexing.
+
+## 1. Review Question
 
 How should a paper distinguish Qur'anic text, human tafsir, empirical data, and scientific models when it evaluates claims of conflict between science and the Qur'an?
 
-## Inclusion criteria
+Operational sub-questions:
 
-- Directly about tafsir ilmī, Qur'an and science, or critique of scientific exegesis
-- Or directly useful for the paper's formal apparatus: belief revision, constraint satisfaction, epistemic change, or data/model distinctions
-- Prefer peer-reviewed journal articles and book-length academic sources
-- Use theses or repository papers only when they are clearly influential or uniquely useful
-- Exclude blog posts, polemics, and uncited summaries
+- What English-language literature constrains scientific exegesis (*tafsir ilmi*) and Qur'an-science interpretation?
+- What literature supports the distinction between text and interpretation?
+- What philosophy-of-science literature supports the distinction between data, processed data, scientific models, and theories?
+- What sources are needed to frame common ancestry, common design, and human origins without turning the paper into apologetics or polemic?
+- What formal-epistemology literature can support restricted revision without overloading the paper with decorative formalism?
 
-## Seed corpus
+## 2. Scope
 
-### A. Core Qur'an-science and scientific exegesis literature
+Included:
 
-1. **Ansari, Zafar Ishaq (2004)**. *The Scientific Exegesis (Tafsīr) of the Qur'an*. Al-Fikr Al-islāmī al-muʿāṣir, 9(35), 43-64. DOI: https://doi.org/10.35632/citj.v9i35.1449
-   - Why it matters: classic critical overview of scientific exegesis; useful for framing the guidance-vs-science question and the risks of over-reading concordance.
+- English-language academic literature on Qur'an and science, scientific exegesis, Qur'anic hermeneutics, tafsir tradition, and usul al-fiqh.
+- English-language philosophy of science literature on data, models, theories, realism, model pluralism, and scientific explanation.
+- English-language philosophy of biology or academic biology sources on common ancestry, evidence, design arguments, and creationism/intelligent design debates.
+- Formal epistemology sources on belief revision, restricted revision, consistency, and type/constraint discipline when directly useful for ETC.
 
-2. **Mir, Mustansir (2004)**. *Scientific Exegesis of the Qurʾān - A Viable Project?* Journal of Islam & Science.
-   - URL: https://jis.cis-ca.org/scientific-exegesis-of-the-quran-a-viable-project.html
-   - Why it matters: direct methodological challenge to the project of scientific tafsir.
+Excluded:
 
-3. **Naguib, Shuruq (2019)**. *The Hermeneutics of Miracle: Evolution, Eloquence, and the Critique of Scientific Exegesis in the Literary School of Tafsir. Part I: From Muhammad cAbduh to Amin al-Khali*. Journal of Qur'anic Studies, 21(3), 57-88. DOI: https://doi.org/10.3366/jqs.2019.0399
-   - Why it matters: one of the strongest modern critiques from the literary-hermeneutic side.
+- Indonesian-language papers, even when thematically relevant.
+- Blog posts, polemical essays, da'wah summaries, and popular apologetic material.
+- Sources with unclear venue identity unless quarantined for later verification.
+- Any source whose metadata cannot be reconstructed well enough for citation.
 
-4. **Ismail, Ahmad Thaqif & Asnawi, Aqdi Rofiq (2021)**. *Scientific Approach in Quranic Exegesis: The Emergence and Issues*. Journal of Contemporary Islamic Studies, 7(1), 59-83.
-   - URL: https://ir.uitm.edu.my/id/eprint/47134/
-   - Why it matters: summarizes emergence and methodological issues.
+## 3. Search Paths
 
-5. **Luqman, Muhammad Mugheerah; Nazar, Hafiz Anas; Ramzan, Tahira; Hassan, Faizan; Umair ul Haq, Muhammad; Ghumman, Ubaid ur Rehman (2023)**. *Conditions For The Scientific Interpretation Of Quran*. Journal of Positive School Psychology.
-   - URL: https://journalppw.com/index.php/jpsp/article/view/15624
-   - Why it matters: useful because it explicitly lays out conditions and warns against treating scientific interpretation as proof rather than reference.
+Primary search paths to use in the next retrieval round:
 
-6. **Mohd-Noor, Ahmad Yunus (2013)**. *Scientific Exegesis Reappraised: A Critical Study of the al-Jawāhir fī Tafsīr al-Qur'ān al-Karīm*. Doctoral thesis, Durham University.
-   - URL: https://etheses.dur.ac.uk/9390/
-   - Why it matters: foundational critical study of one of the major scientific exegesis works.
+- Scopus for indexing and bibliographic verification.
+- Web of Science if available.
+- Crossref for DOI and metadata validation.
+- Publisher pages for final bibliographic details.
+- Institutional repositories for legal full text.
+- Google Scholar only as a discovery tool, not as final verification.
 
-7. **Khalil, Imad (1991)**. *The Qur’an and Modern Science: Observations on Methodology*. *American Journal of Islam and Society*, 8(1), 1–13.
-   - DOI: https://doi.org/10.35632/ajis.v8i1.2641
-   - Why it matters: useful for framing methodology, science, and theory-of-knowledge concerns.
+## 4. Search Strings
 
-8. **Shaikh Mohd Saifuddeen Shaikh Mohd Salleh & Azizan Baharuddin (2011)**. *Significance of Science and Scientific Thought from the Islamic Perspective*. *QURANICA: International Journal of Quranic Research*, 1(1), 73–87.
-   - URL: https://ejournal.um.edu.my/index.php/quranica/article/view/5268
-   - Why it matters: useful for broader Islam-and-science framing while staying in English.
+Use these as initial strings and refine after screening.
 
-9. **Exploring Scientific Exegesis (Al-Tafsīr Al-‘Ilmī) of the Quran: Merits, Challenges, and Interpretive Boundaries**. *Journal of Religion and Society*.
-   - URL: https://www.islamicreligious.com/index.php/Journal/article/view/150
-   - Why it matters: potentially relevant, but venue identity must be audited (name/ISSN ambiguity). Treat as **flagged** until verified.
+### Qur'an, Science, and Tafsir Ilmi
 
-10. **The Development and Challenges of Scientific Qur'anic Interpretation: a Comparative Study Between Malaysia and Indonesia**. *Al-Bayan: Journal of Qur'an and Hadith Studies*.
-    - URL: https://brill.com/abstract/journals/jqhs/23/1/article-p27_2.xml
-    - Why it matters: English-language comparative work on the development and challenges of scientific interpretation.
+- `"scientific exegesis" Qur'an tafsir`
+- `"tafsir ilmi" Qur'an science`
+- `"Qur'an and modern science" methodology`
+- `"scientific interpretation" Qur'an methodology`
+- `"i'jaz ilmi" Qur'an critique`
 
-11. **Bigliardi, Stefano (2025)**. *Islam and Pseudoscience*. Cambridge Elements (Elements in Islam and Science).
-    - DOI: https://doi.org/10.1017/9781009608237
-    - URL: https://www.cambridge.org/core/elements/islam-and-pseudoscience/D233C9A3D11F1B04398BDE94E006E313
-    - Why it matters: sharpens the paper's boundary against pseudo-scientific concordism and overclaim; includes discussion of iʿjāz ʿilmī and related malpractices.
+### Qur'anic Hermeneutics and Usul
 
-### B. Formal apparatus for the model
+- `Qur'anic hermeneutics interpretation authority`
+- `Qur'an interpretation text meaning context`
+- `qati zanni dalalah usul al-fiqh English`
+- `Qur'anic studies tafsir tradition language context`
 
-12. **Alchourrón, C. E.; Gärdenfors, P.; Makinson, D. (1985)**. *On the Logic of Theory Change: Partial Meet Contraction and Revision Functions*.
-   - Why it matters: the AGM baseline for belief revision.
+### Philosophy of Science: Data, Models, Theories
 
-13. **Gärdenfors, Peter (1988)**. *Knowledge in Flux: Modeling the Dynamics of Epistemic States*.
-   - Why it matters: canonical reference for belief dynamics and epistemic state change.
+- `data model distinction philosophy of science`
+- `scientific models data theory distinction`
+- `models as mediators philosophy of science`
+- `model pluralism scientific representation`
+- `theory-ladenness data models philosophy science`
 
-14. **Chandler, Jake & Booth, Richard (2022/2023)**. *Elementary Belief Revision Operators*.
-   - URL: https://link.springer.com/article/10.1007/s10992-022-09672-6
-   - Why it matters: useful if the paper wants a tighter account of revision operators than AGM alone.
+### Common Ancestry, Design, and Human Origins
 
-15. **Thagard, Paul (1992)**. *Coherence as Constraint Satisfaction*.
-   - URL: https://www.sciencedirect.com/science/article/pii/S0364021399800330
-   - Why it matters: direct support for the paper's constraint-satisfaction framing.
+- `common ancestry evidence philosophy biology Sober`
+- `intelligent design creationism philosophy of science Pennock`
+- `human origins common ancestry evidence biology`
+- `common design common ancestry philosophy biology`
 
-16. **What is a Data Model?** *European Journal for Philosophy of Science*.
-   - URL: https://link.springer.com/article/10.1007/s13194-021-00412-2
-   - Why it matters: useful for the paper's distinction between raw data, processed data, and data models.
+### Formal Epistemology and Restricted Revision
 
-17. **What Distinguishes Data from Models?** *European Journal for Philosophy of Science*.
-   - URL: https://link.springer.com/article/10.1007/s13194-018-0246-0
-   - Why it matters: a direct philosophical treatment of the data/model distinction.
+- `belief revision restrictions epistemic logic`
+- `partial meet contraction belief revision`
+- `consistency based belief change`
+- `type discipline many sorted logic epistemology`
 
-18. **Data Models and the Acquisition and Manipulation of Data**. *Philosophy of Science*.
-   - URL: https://www.cambridge.org/core/journals/philosophy-of-science/article/abs/data-models-and-the-acquisition-and-manipulation-of-data/C33E41E7E28035D1E99F7C3533474D84
-   - Why it matters: useful for the paper's model-based account of data handling.
+## 5. Inclusion and Exclusion Criteria
 
-19. **The Interplay of Data, Models, and Theories in Machine Learning**. *Philosophy of Science*.
-   - URL: https://www.cambridge.org/core/journals/philosophy-of-science/article/interplay-of-data-models-and-theories-in-machine-learning/E6F197A54A93C3D597F1568A9EEB3B39
-   - Why it matters: contemporary support for separating data, models, and theories rather than collapsing them into one level.
+A source is **core** if it directly supports one of the paper's load-bearing claims:
 
-20. **A Framework for Belief Revision Under Restrictions**. *The Knowledge Engineering Review*.
-   - URL: https://www.cambridge.org/core/journals/knowledge-engineering-review/article/framework-for-belief-revision-under-restrictions/5EC930BB2E144E6262E85209CB2213A1
-   - Why it matters: useful if the paper's revision is limited to the nazhari zone.
+- scientific exegesis needs hermeneutic constraints;
+- Qur'anic text and human interpretation should not be collapsed;
+- data and models are distinct epistemic objects;
+- common ancestry/design must be framed at the right epistemic level;
+- revision applies to interpretations and scientific models, not to the transmitted text itself.
 
-21. **A Consistency-Based Approach for Belief Change**.
-   - URL: https://www.sciencedirect.com/science/article/pii/S0004370203001115
-   - Why it matters: useful for formalizing revision as preserving as much consistency as possible.
+A source is **supporting** if it gives background, examples, or general orientation but should not carry the argument alone.
 
-### C. Worked example anchors (human origins: common ancestry vs common design)
+A source is **quarantined** if metadata, venue status, DOI, indexing, language, or academic reliability is unclear.
 
-22. **Futuyma, Douglas J. & Kirkpatrick, Mark (2017)**. *Evolution* (4th ed.). Sinauer Associates.
-   - ISBN: 978-1-60535-696-9
-   - Why it matters: standard evolutionary biology textbook anchor for describing `Mj_CA` without overclaiming.
+## 6. Screening Status
 
-23. **Sober, Elliott (2008)**. *Evidence and Evolution: The Logic Behind the Science*. Cambridge University Press.
-   - ISBN: 978-0-521-87188-4
-   - Why it matters: philosophy-of-biology anchor for how similarity counts as evidence for common ancestry; also useful for explaining evidence language in the worked example.
+Current status: **pre-SLR audit completed; full SLR not yet completed**.
 
-24. **Okasha, Samir (2002)**. *Philosophy of Science: A Very Short Introduction* (1st ed.). Oxford University Press.
-   - Print ISBN: 978-0-19-280283-5
-   - DOI: https://doi.org/10.1093/actrade/9780192802835.001.0001
-   - Why it matters: general philosophy-of-science anchor for model talk, demarcation, and avoiding “science says” overclaim.
+What exists now:
 
-## Working selection logic
+- a cleaned review question;
+- language and access rules;
+- preliminary search strings;
+- core/supporting/quarantined categories;
+- an explicit Scopus-verification warning;
+- a manager checklist for the next retrieval round.
 
-The paper's best-supported path is not to prove that science and the Qur'an are always compatible. The stronger path is to show that many alleged conflicts are misclassified because `Q`, `Ti(Q)`, `D`, and `Mj(D)` are treated as if they belong to the same epistemic layer.
+What is still missing:
 
-That means the final paper should lean hardest on sources that do one of three things:
+- actual Scopus search log;
+- dates of search;
+- hit counts per database;
+- PRISMA-style inclusion/exclusion flow;
+- title/abstract screening table;
+- full-text eligibility table;
+- final verified Scopus status for each journal article or book series.
 
-- show why scientific exegesis needs constraints,
-- show why interpretation is not the same as the text itself,
-- or show why belief change and constraint satisfaction are legitimate formal tools for modeling limited revision.
+## 7. Core Corpus
 
-## Next crawl targets
+The items below are safe to **search, verify, and consider** as core sources. They are not automatically Scopus-verified.
 
-- More recent English-language journal work on al-dākhil in scientific exegesis
-- Comparative English-language work on tafsir ilmī in different regions
-- Formal epistemology work on belief revision under inconsistency
-- Philosophy-of-science papers on data/model/theory distinctions
+| Source | Theme | Current status | Access status | Scopus status | Use in ETC |
+|---|---|---|---|---|---|
+| Ansari, Zafar Ishaq (2004), "The Scientific Exegesis (Tafsir) of the Qur'an" | scientific exegesis critique | verified from current context | publisher/DOI known | needs Scopus check | Core critique of unconstrained scientific exegesis |
+| Mir, Mustansir (2004), "Scientific Exegesis of the Qur'an: A Viable Project?" | scientific exegesis critique | plausible/partly verified from current context | legal page known | needs Scopus check | Direct methodological challenge to tafsir ilmi |
+| Naguib, Shuruq (2019), "The Hermeneutics of Miracle..." | hermeneutics and critique | verified from current context | publisher/DOI known | needs Scopus check | Strong source for literary-hermeneutic critique |
+| Khalil, Imad (1991), "The Qur'an and Modern Science: Observations on Methodology" | methodology | verified from current context | publisher/DOI known | needs Scopus check | Early methodology source on Qur'an/science claims |
+| Bigliardi, Stefano (2025), *Islam and Pseudoscience* | pseudoscience/concordism boundary | verified from current context | Cambridge/publisher known | needs Scopus check | Helps prevent apologetic or pseudoscientific framing |
+| Hallaq, Wael B. (1997), *A History of Islamic Legal Theories* | usul al-fiqh | publisher-level verified | institutional/unknown | needs Scopus check | Needed for epistemic hierarchy and legal-theoretical background |
+| Shah & Abdel Haleem, eds. (2020), *The Oxford Handbook of Qur'anic Studies* | Qur'anic studies | publisher-level verified | institutional/unknown | needs Scopus check | Broad anchor for Qur'anic studies and tafsir context |
+| Saeed, Abdullah (2006), *Interpreting the Qur'an* | hermeneutics | publisher-level verified | institutional/unknown | needs Scopus check | Supports text/context/interpretation distinction |
+| Saleh, Walid A. (2004), *The Formation of the Classical Tafsir Tradition* | tafsir tradition | publisher-level verified | institutional/unknown | needs Scopus check | Needed to ground tafsir tradition historically |
+| Leonelli, Sabina (2019), "What Distinguishes Data from Models?" | data/model distinction | verified from current context | publisher/DOI known | needs Scopus check | Core philosophy-of-science support for `D` vs `Mj(D)` |
+| Antoniou (2021), "What is a data model?" | data model | verified from current context | publisher/DOI known | needs Scopus check | Refines `D`, processed data, and data-model distinctions |
+| Harris (2003), "Data Models and the Acquisition and Manipulation of Data" | data handling | publisher-level verified | institutional/unknown | needs Scopus check | Supports model-based data acquisition/manipulation |
+| Morgan & Morrison, eds. (1999), *Models as Mediators* | scientific models | publisher-level verified | institutional/unknown | needs Scopus check | Core source for model-world mediation |
+| Weisberg (2013), *Simulation and Similarity* | modeling and representation | publisher-level verified | institutional/unknown | needs Scopus check | Useful for model similarity and representation |
+| Sober, Elliott (2008), *Evidence and Evolution* | common ancestry evidence | publisher-level verified | institutional/unknown | needs Scopus check | Core philosophy-of-biology anchor for evidence and ancestry |
+| Pennock (1999/2001), work on intelligent design/creationism | design/creationism | plausible but metadata must be fixed | institutional/unknown | needs Scopus check | Helps frame common design vs science without caricature |
+| Alchourron, Gardenfors, and Makinson (1985), "On the Logic of Theory Change" | belief revision | verified from current context | DOI known | needs Scopus check | Formal baseline for restricted revision |
+| Long et al. (2022), "A Framework for Belief Revision Under Restrictions" | restricted revision | verified from current context, metadata needs correction | publisher/OA likely | needs Scopus check | Direct support for revision under restrictions |
 
-## Notes
+## 8. Supporting Corpus
 
-This corpus is intentionally mixed:
-- some sources defend scientific exegesis,
-- some criticize it,
-- and some provide the formal machinery needed to model the paper.
+These sources may be useful, but should not carry the paper's central argument by themselves.
 
-That mix is deliberate. The model paper needs both critique and machinery, otherwise it turns into either apologetics or abstract formalism.
+| Source | Theme | Current status | Reason for supporting status |
+|---|---|---|---|
+| Mohd-Noor (2013), Durham thesis on *al-Jawahir* | scientific exegesis history | verified institutional thesis | Valuable background, but not a journal article |
+| Futuyma & Kirkpatrick (2017), *Evolution* | mainstream biology | plausible but metadata should be checked | Good for biological background, not for the paper's epistemology |
+| Okasha (2002), *Philosophy of Science: A Very Short Introduction* | general philosophy of science | verified from current context | Useful introduction, but too general for load-bearing claims |
+| Gardenfors (1988), *Knowledge in Flux* | belief revision | plausible/known classic | Useful if formal section expands, but not enough alone |
+| Chandler & Booth (2022/2023), work on elementary belief revision operators | belief revision | plausible from current context | Useful only if formal apparatus is expanded |
+| Delgrande & Schaub (2003), consistency-based belief change | belief change | verified from current context | Supporting source for formal revision logic |
+| Woodward/Bokulich/Parker-type literature | models/evidence | retrieval target | Add if paper expands philosophy of science section |
+
+## 9. Quarantined Corpus
+
+Do not use these as core sources until metadata, venue, language, and indexing are checked.
+
+| Source | Problem | Action |
+|---|---|---|
+| Thagard listed as "Thagard (1992), Coherence as Constraint Satisfaction" | metadata appears wrong; likely should be Thagard & Verbeurgt (1998) or another exact source | quarantine and correct citation before use |
+| Luqman et al. (2023), *Journal of Positive School Psychology* | venue/indexing reliability unclear | quarantine; do not make load-bearing |
+| "Exploring Scientific Exegesis (Al-Tafsir Al-'Ilmi) of the Quran..." | venue identity/name/ISSN ambiguous | quarantine until venue is verified |
+| Ismail & Asnawi (2021) | useful but venue/indexing needs checking | supporting only; do not make load-bearing |
+| Shaikh Mohd Saifuddeen & Azizan (2011) | broad framing, limited load-bearing value | supporting only unless metadata/indexing improves |
+| Any source without DOI, pages, volume/issue, publisher, or clear venue | incomplete citation | quarantine until metadata is fixed |
+
+## 10. Immediate Literature Gaps
+
+### Tafsir and Usul Gap
+
+This is the most serious gap. The ETC paper relies on a distinction between fixed text and revisable interpretation, but it still needs stronger English-language anchors for:
+
+- `qath'i` and `zanni`/`nazhari` epistemic levels;
+- dalalah and interpretive authority;
+- when interpretation becomes strongly constrained;
+- why scientific readings should not inherit certainty from the transmitted text automatically.
+
+Priority retrieval targets:
+
+- Hallaq on Islamic legal theory;
+- Kamali or Weiss on usul al-fiqh if English editions are suitable;
+- Shah & Abdel Haleem for Qur'anic studies;
+- Saeed for modern Qur'anic hermeneutics;
+- Saleh for classical tafsir tradition.
+
+### Philosophy of Science Gap
+
+The paper has a good direction but needs sharper treatment of `D`:
+
+- raw observation;
+- processed dataset;
+- data model;
+- explanatory model;
+- model family.
+
+Priority retrieval targets:
+
+- Leonelli;
+- Antoniou;
+- Harris;
+- Morgan & Morrison;
+- Weisberg;
+- Frigg & Nguyen if scientific representation becomes central.
+
+### Common Ancestry / Common Design Gap
+
+The worked example currently needs more direct sources so it does not look stipulative.
+
+Priority retrieval targets:
+
+- Sober for common ancestry and evidence;
+- Pennock for intelligent design/creationism and demarcation;
+- mainstream biology textbook or review source for common ancestry;
+- philosophy-of-biology source on evidential reasoning and ancestry.
+
+### Formal Gap
+
+The formal layer should stay minimal unless the paper defines symbols carefully.
+
+Priority retrieval targets:
+
+- AGM belief revision;
+- restricted belief revision;
+- consistency-based belief change;
+- many-sorted/type discipline only if the paper explicitly formalizes typing rules.
+
+## 11. Revision Implications for the ETC Draft
+
+The current paper should not yet claim that its bibliography is submission-grade.
+
+Required revisions before a serious journal submission:
+
+1. Remove or rewrite `Cert(Q)=1 => Cert(Ti(Q))=1`. This implication contradicts the paper's central distinction.
+2. Add an explicit definition of `qath'i-limited` or avoid the term until it is justified by usul/tafsir sources.
+3. Split `D` into more granular scientific objects: observation, processed data, data model, explanatory model/model family.
+4. Recast common design carefully: default metaphysical/interpretive alternative unless operationalized with discriminating empirical expectations.
+5. Move all quarantined sources out of the main bibliography until metadata and venue are verified.
+6. Add a short SLR-method paragraph to the paper explaining that the corpus is English-only and that Scopus status is separately audited.
+
+## 12. Manager Checklist
+
+Next actions:
+
+- [ ] Run Scopus checks for all journal articles and book series that may be claimed as indexed.
+- [ ] Build a spreadsheet/table with citation, DOI, venue, year, theme, access, Scopus status, and use in ETC.
+- [ ] Correct Thagard metadata or remove it.
+- [ ] Add at least five stronger English-language tafsir/usul sources.
+- [ ] Add two to four stronger philosophy-of-science/modeling sources.
+- [ ] Add two to three direct common ancestry/design sources.
+- [ ] Update the paper's literature review after the corpus is cleaned.
+- [ ] Update the DOCX only after the SLR corpus and formal corrections are stable.
+
+## 13. Progress Estimate
+
+Before this cleanup, the SLR layer was approximately **35% ready**:
+
+- useful seed corpus existed;
+- several relevant sources were already identified;
+- but there was no clear protocol, no quarantine logic, no Scopus-status discipline, and no structured gap map.
+
+After this cleanup, the SLR layer is approximately **60% ready**:
+
+- structure is now journal-facing;
+- source roles are clearer;
+- risky sources are quarantined;
+- retrieval gaps are explicit;
+- manager actions are concrete.
+
+It is not higher than 60% because Scopus verification, database logs, DOI cleanup, and PRISMA-style screening have not been completed yet.
