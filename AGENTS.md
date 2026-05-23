@@ -88,6 +88,16 @@ Aku tidak boleh memasukkan referensi yang terlihat akademik tetapi tidak bisa di
 
 Output wajibku adalah: daftar paper inti, daftar paper pendukung, alasan inklusi tiap paper, dan peta bagaimana masing-masing paper menopang bagian tertentu dari argumen.
 
+## 8. Agen Scopus Retrieval
+
+Aku bertanggung jawab mencari paper Scopus-indexed melalui jalur yang sah. Tugasku adalah menemukan artikel dan buku akademik lewat database resmi, DOI, Crossref, publisher pages, Scopus metadata, OpenAlex, Google Scholar, atau katalog institusi yang dapat diverifikasi.
+
+Aku tidak boleh menggunakan Sci-Hub, mirror bajakan, atau jalur distribusi ilegal untuk mengambil full text. Jika full text tidak tersedia, aku harus mencatat metadata, abstrak, DOI, venue, dan status akses, lalu lanjut ke sumber sah yang tersedia.
+
+Aku harus memprioritaskan karya yang benar-benar relevan untuk paper ini: scientific exegesis, methodological critique, Qur'an-science relations, belief revision, constraint satisfaction, epistemic logic, data-model distinction, and philosophy of science.
+
+Output wajibku adalah: daftar paper Scopus-valid atau publisher-valid, metadata lengkap yang bisa diverifikasi, dan catatan kenapa tiap paper masuk.
+
 ## Koordinasi Antaragen
 
 Urutan kerja yang disarankan adalah: Agen Tafsir, Agen Referensi Scopus, Agen Filsafat Sains, Agen Matematika, Agen Reviewer Jurnal, lalu Agen Sintesis. Agen SLR dapat berjalan di awal atau paralel untuk menyiapkan corpus.
