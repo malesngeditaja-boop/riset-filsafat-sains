@@ -14,11 +14,11 @@ The core claim is modest. ETC does not say that conflict is impossible. It says 
 
 ## 2. Literature Review and Conceptual Background
 
-The paper distinguishes four epistemic objects. `Q` denotes the Qur'anic text as mutawātir lafẓ. `Ti(Q)` denotes a human interpretation of that text. `D` denotes empirical data. `Mj(D)` denotes a scientific model or model-family constructed to explain the data. This distinction matters because a public claim such as “science contradicts the Qur'an” is often incomplete. It may actually mean that a scientific model conflicts with a particular interpretation of a verse, not with the text as such.
+The paper distinguishes four epistemic objects. `Q` denotes the Qur'anic text as canonically transmitted Arabic text. `Ti(Q)` denotes a human interpretation of that text. `D` denotes empirical data. `Mj(D)` denotes a scientific model or model-family constructed to explain the data. This distinction matters because a public claim such as “science contradicts the Qur'an” is often incomplete. It may actually mean that a scientific model conflicts with a particular interpretation of a verse, not with the text as such.
 
-That distinction also matters on the tafsir side. `Q` is fixed as transmitted text, but `Ti(Q)` is revisable in principle. Not every interpretation has the same status. Some readings may be strong enough to count as qath'i-limited, but that status cannot be assumed; it must be argued from language, context, qarinah, and usul. Most science-linked readings should therefore begin in the nazhari zone unless a strong hermeneutic case is shown.
+That distinction also matters on the tafsir side. `Q` is fixed as transmitted text, but `Ti(Q)` is revisable in principle. The draft therefore treats most science-linked readings as `zanni al-dalāla` or `ijtihādī` unless a strong hermeneutic case is shown. The safer rule is not to infer certainty of interpretation from certainty of transmission. In that sense, the paper prefers the wording “textually fixed, interpretively revisable” over a looser hedge such as `qath'i-limited`.
 
-On the science side, ETC insists that data and model are not identical. Scientific practice routinely separates raw or processed evidence from the explanatory structures used to organize it. A model may be strong without being final, and data may be robust without dictating a single theory. ETC uses this point to block a familiar move in public debate: treating “science says X” as if it meant more than “a current model suggests X under certain assumptions.”
+On the science side, ETC insists that data and model are not identical. Scientific practice routinely separates observation, processed evidence, and explanatory structure. A model may be strong without being final, and data may be robust without dictating a single theory. ETC uses this point to block a familiar move in public debate: treating “science says X” as if it meant more than “a current model suggests X under certain assumptions.”
 
 The paper therefore occupies a middle position. It does not defend every concordist reading. It does not deny scientific pressure on interpretation. It only argues that classification must come before reconciliation.
 
@@ -30,7 +30,7 @@ ETC uses a minimal formal language. The aim is not to turn tafsir into mathemati
 
 The paper uses four object classes:
 
-- `Text` for Qur'anic textual units treated as mutawātir lafẓ.
+- `Text` for Qur'anic textual units treated as canonically transmitted Arabic text.
 - `Interpretation` for human interpretive propositions about `Text`.
 - `Data` for empirical observations, measurements, or processed evidential records.
 - `Model` for scientific explanatory structures built to account for `Data`.
@@ -58,7 +58,7 @@ ETC defines:
 
 `Conflict(x, y)`
 
-as a relation of asserted incompatibility. The relation is well typed only when the comparison is licensed by type or by an explicit bridge.
+as a relation of asserted incompatibility. The relation is meaningful only when the comparison is licensed by type or by an explicit bridge.
 
 ETC treats the following as meaningful by default:
 
@@ -66,11 +66,13 @@ ETC treats the following as meaningful by default:
 - `Conflict(Mj1(D), Mj2(D))`
 - `Conflict(Ti(Q), Tk(Q))`
 
-ETC treats `Conflict(Mj(D), Q)` as ill typed unless the relevant interpretive bridge is made explicit. This is the model's main diagnostic move.
+ETC treats `Conflict(Mj(D), Q)` as ill typed unless the relevant interpretive bridge is made explicit. That is the model's main diagnostic move.
 
 ### 3.4 Diagnosis and restricted revision
 
 The model distinguishes `type_error`, `interpretive_conflict`, `model_conflict`, `mixed_conflict`, and `unresolved`. The point is not to resolve every disagreement automatically. The point is to say where the disagreement lives.
+
+A public conflict claim must therefore specify the epistemic level it is targeting; otherwise it is classified as `type_error`.
 
 Revision is restricted. `Q` is not revised as text. `Ti(Q)` may be revised under tafsir constraints. `Mj(D)` may be revised under scientific constraints. ETC therefore rejects the automatic move from certainty of transmission to certainty of every interpretation.
 
@@ -98,11 +100,11 @@ The model also avoids two opposite errors. On one side is concordism, where scie
 
 ## 6. Limitations
 
-The model depends on how `qath'i al-dalalah` is argued. It does not settle every hermeneutic dispute, and it does not prove the truth or falsity of common ancestry, common design, or any other scientific proposal.
+The model depends on how `qath'i al-dalāla` is argued. It does not settle every hermeneutic dispute, and it does not prove the truth or falsity of common ancestry, common design, or any other scientific proposal.
 
 The worked example is intentionally narrow. A submission-ready version should add a textual appendix with specific verses, Arabic text, transliteration, and translation, plus a clearer account of the scientific bibliography used for the worked example.
 
-The current literature base is also uneven. It is strong on critique of scientific exegesis and on formal machinery for belief revision and data/model distinctions, but it still needs more direct usul and tafsir anchors for the qath'i-limited versus nazhari boundary rule.
+The current literature base is also uneven. It is strong on critique of scientific exegesis and on formal machinery for belief revision and data/model distinctions, but it still needs more direct usul and tafsir anchors for the `qat'i al-thubut` versus `zanni al-dalāla` boundary rule.
 
 ## 7. Conclusion
 
@@ -128,4 +130,9 @@ This bibliography is partial and intentionally limited to sources already presen
 - Okasha, S. (2002). *Philosophy of Science: A Very Short Introduction*. Oxford University Press. https://doi.org/10.1093/actrade/9780192802835.001.0001
 - Sober, E. (2008). *Evidence and Evolution: The Logic Behind the Science*. Cambridge University Press.
 - Futuyma, D. J., & Kirkpatrick, M. (2017). *Evolution* (4th ed.). Sinauer Associates.
-- Thagard, P. (1992). Coherence as constraint satisfaction. *Cognitive Science*. https://doi.org/10.1016/S0364-0213(99)80033-0
+- Saleh, W. A. (2004). *The Formation of the Classical Tafsir Tradition*. Oxford University Press.
+- Saeed, A. (2006). *Interpreting the Qur'an*. Routledge.
+- Shah, M. A. S., & Abdel Haleem, M. (eds.). (2020). *The Oxford Handbook of Qur'anic Studies*. Oxford University Press.
+- Hallaq, W. B. (1997). *A History of Islamic Legal Theories*. Cambridge University Press.
+- Weisberg, M. (2013). *Simulation and Similarity*. Oxford University Press.
+- Morgan, M. S., & Morrison, M. (eds.). (1999). *Models as Mediators*. Cambridge University Press.
