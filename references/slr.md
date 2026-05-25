@@ -142,7 +142,7 @@ The items below are safe to **search, verify, and consider** as core sources. Th
 | Saleh, Walid A. (2004), *The Formation of the Classical Tafsir Tradition* | tafsir tradition | publisher-level verified | institutional/unknown | needs Scopus check | Needed to ground tafsir tradition historically |
 | Leonelli, Sabina (2019), "What Distinguishes Data from Models?" | data/model distinction | verified from current context | publisher/DOI known | needs Scopus check | Core philosophy-of-science support for `D` vs `Mj(D)` |
 | Antoniou (2021), "What is a data model?" | data model | verified from current context | publisher/DOI known | needs Scopus check | Refines `D`, processed data, and data-model distinctions |
-| Harris (2003), "Data Models and the Acquisition and Manipulation of Data" | data handling | publisher-level verified | institutional/unknown | needs Scopus check | Supports model-based data acquisition/manipulation |
+| Harris, Todd (2003), "Data Models and the Acquisition and Manipulation of Data" | data handling | verified from current context | DOI known | needs Scopus check | Supports model-based data acquisition/manipulation |
 | Morgan & Morrison, eds. (1999), *Models as Mediators* | scientific models | publisher-level verified | institutional/unknown | needs Scopus check | Core source for model-world mediation |
 | Weisberg (2013), *Simulation and Similarity* | modeling and representation | publisher-level verified | institutional/unknown | needs Scopus check | Useful for model similarity and representation |
 | Sober, Elliott (2008), *Evidence and Evolution* | common ancestry evidence | publisher-level verified | institutional/unknown | needs Scopus check | Core philosophy-of-biology anchor for evidence and ancestry |
@@ -159,7 +159,7 @@ These sources may be useful, but should not carry the paper's central argument b
 | Mohd-Noor (2013), Durham thesis on *al-Jawahir* | scientific exegesis history | verified institutional thesis | Valuable background, but not a journal article |
 | Futuyma & Kirkpatrick (2017), *Evolution* | mainstream biology | plausible but metadata should be checked | Good for biological background, not for the paper's epistemology |
 | Okasha (2002), *Philosophy of Science: A Very Short Introduction* | general philosophy of science | verified from current context | Useful introduction, but too general for load-bearing claims |
-| Gardenfors (1988), *Knowledge in Flux* | belief revision | plausible/known classic | Useful if formal section expands, but not enough alone |
+| Gardenfors (1988), *Knowledge in Flux* | belief revision | verified from current context (MIT Press; ISBN 9780262071093) | Useful if formal section expands, but not enough alone |
 | Chandler & Booth (2022/2023), work on elementary belief revision operators | belief revision | plausible from current context | Useful only if formal apparatus is expanded |
 | Delgrande & Schaub (2003), consistency-based belief change | belief change | verified from current context | Supporting source for formal revision logic |
 | Woodward/Bokulich/Parker-type literature | models/evidence | retrieval target | Add if paper expands philosophy of science section |
@@ -170,7 +170,7 @@ Do not use these as core sources until metadata, venue, language, and indexing a
 
 | Source | Problem | Action |
 |---|---|---|
-| Thagard listed as "Thagard (1992), Coherence as Constraint Satisfaction" | metadata appears wrong; likely should be Thagard & Verbeurgt (1998) or another exact source | quarantine and correct citation before use |
+| Thagard listed as "Thagard (1992), Coherence as Constraint Satisfaction" | metadata was wrong (correct is Thagard 1998, *Cognitive Science*, DOI 10.1016/S0364-0213(99)80033-0) | corrected; move to core if used |
 | Luqman et al. (2023), *Journal of Positive School Psychology* | venue/indexing reliability unclear | quarantine; do not make load-bearing |
 | "Exploring Scientific Exegesis (Al-Tafsir Al-'Ilmi) of the Quran..." | venue identity/name/ISSN ambiguous | quarantine until venue is verified |
 | Ismail & Asnawi (2021) | useful but venue/indexing needs checking | supporting only; do not make load-bearing |

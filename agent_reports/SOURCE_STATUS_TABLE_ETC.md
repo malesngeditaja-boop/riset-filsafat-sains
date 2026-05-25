@@ -30,13 +30,13 @@ Catatan anti-halu:
 | A10 | Supporting | Comparative study | Zubaidi et al. 2025 | Verified (DOI) | Not checked | Supporting |
 | A11 | Supporting | Pseudoscience boundary | Bigliardi 2025 | Verified (DOI) | Not checked | Supporting |
 | B12 | Core | Belief revision | AGM 1985 | Verified (DOI) | Not checked | Load-bearing |
-| B13 | Core | Belief dynamics | Gärdenfors 1988 | Incomplete (publisher/ISBN not pinned) | Not checked | Supporting until pinned |
+| B13 | Supporting | Belief dynamics | Gärdenfors 1988 | Verified (MIT Press; ISBN 9780262071093) | Not checked | Supporting |
 | B14 | Supporting | Revision operators | Chandler & Booth 2022 | Verified (URL) | Not checked | Supporting |
-| B15 | Core | Constraint satisfaction | Thagard 1992 | DOI not yet pinned in repo | Not checked | Core once DOI pinned |
+| B15 | Core | Constraint satisfaction | Thagard 1998 | Verified (DOI 10.1016/S0364-0213(99)80033-0) | Not checked | Load-bearing |
 | B16 | Core | Data model | Antoniou 2021 | Verified (DOI) | Not checked | Load-bearing |
 | B17 | Core | Data vs model | Leonelli 2019 | Verified (DOI) | Not checked | Load-bearing |
-| B18 | Supporting | Data handling | PoS (Cambridge Core) | Metadata incomplete | Not checked | Supporting once pinned |
-| B19 | Supporting | Data/model/theory | PoS (Cambridge Core) | Metadata incomplete | Not checked | Supporting once pinned |
+| B18 | Supporting | Data handling | Harris 2003 | Verified (DOI 10.1086/377426) | Not checked | Supporting |
+| B19 | Supporting | Data/model/theory | Norelli et al. 2025 | Verified (DOI 10.1017/psa.2025.10161) | Not checked | Supporting |
 | B20 | Supporting | Restricted revision | Long et al. 2022 | Verified (DOI) | Not checked | Supporting |
 | B21 | Supporting | Belief change | Delgrande & Schaub 2003 | Verified (DOI) | Not checked | Supporting |
 | C22 | Supporting | Worked example anchor | Futuyma & Kirkpatrick 2017 | Verified (ISBN) | N/A (book) | Supporting |
@@ -45,8 +45,5 @@ Catatan anti-halu:
 
 ## Immediate cleanup TODOs (repo-only)
 
-1) Pin full metadata untuk B13 (Gärdenfors 1988): publisher + ISBN.
-2) Pin DOI/biblio detail Thagard 1992 (B15) secara benar.
-3) Lengkapi author/year untuk B18–B19 dari Cambridge Core pages (kalau mau dipakai di naskah).
-4) Putuskan apakah A9 dipertahankan sebagai flagged atau dikeluarkan.
-
+1) Putuskan apakah A9 dipertahankan sebagai flagged atau dikeluarkan.
+2) Jika target jurnal minta, tambahkan bukti indexing (Scopus/WoS) per venue dari sumber resmi.
