@@ -6,11 +6,15 @@
 
 ## 1. Introduction
 
-Public discourse often frames the Qur'an-science debate as if it were a single confrontation between science and revelation. That formulation is too coarse. It compresses at least four distinct objects into one: the Qur'anic text, human readings of that text, empirical observations, and scientific models built to explain those observations. When these objects are collapsed, the debate becomes rhetorically easy but analytically weak.
+Disputes framed as contradictions between science and the Qur'an are often more rhetorically forceful than they are analytically precise. A scientific model may be opposed to a verse reading, a theological claim may be treated as if it were identical with the text, and a data-processing judgment may be presented as if it were revelation. The result is a debate that sounds decisive while remaining epistemically unstable (Naguib, 2019; Leonelli, 2019).
 
-A large portion of the problem concerns scientific exegesis (*tafsīr ʿilmī*), namely the attempt to read the Qur'an as anticipating, encoding, or confirming scientific claims. The strongest critiques of scientific exegesis do not reject interpretation outright; they argue that interpretation must remain constrained by language, context, and hermeneutic warrant. The ETC paper takes those critiques seriously and asks a narrower question: what is the correct epistemic level at which a given conflict should be located?
+The existing literature already points in this direction, but in separate registers. Qur'anic studies and tafsir scholarship have shown that scientific exegesis (tafsīr ʿilmī) must remain constrained by language, context, and interpretive tradition (Saeed, 2006; Saleh, 2004; Shah & Abdel Haleem, 2020). Philosophy of science has, for its part, repeatedly shown that data, data models, and explanatory models are not interchangeable (Leonelli, 2019; Antoniou, 2021). What is still missing is a framework that brings these insights together without turning either side into a caricature.
 
-The core claim is modest. ETC does not say that conflict is impossible. It says that many alleged conflicts are misclassified because `Q` (text), `Ti(Q)` (interpretation), `D` (data), and `Mj(D)` (model) are treated as if they were interchangeable.
+This paper proposes such a framework in the form of the Epistemic Type-Constraint Model (ETC). ETC does not ask whether science and the Qur'an are simply compatible. It asks which object is actually in conflict when a dispute is raised, and whether the relevant claim belongs to the level of text, interpretation, data, or model. The model is built on a simple premise: many disputes are not resolved by choosing a side too quickly, but by locating the disagreement at the correct epistemic level (Long et al., 2022).
+
+To make that premise usable, ETC distinguishes Q, Ti(Q), D, and Mj(D), and treats the bridge from text to interpretation as something that must be shown rather than assumed. The paper's contribution is deliberately modest but substantive: a diagnostic vocabulary, a minimal formalism, and a worked example on human origins. The aim is not to dissolve theological tension, but to show why some conflicts are genuine while others are category mistakes in disguise (Hallaq, 1997; Long et al., 2022).
+
+The remainder of the paper proceeds as follows. Section 2 reviews the conceptual background and the distinction between text, interpretation, data, and model. Section 3 introduces the formal framework. Section 4 applies ETC to common ancestry and common design. Section 5 draws the main implications, and Section 6 states the limits of the approach.
 
 ## 2. Literature Review and Conceptual Background
 
@@ -24,115 +28,4 @@ The paper therefore occupies a middle position. It does not defend every concord
 
 ## 3. Method / Formal Framework
 
-ETC uses a minimal formal language. The aim is not to turn tafsir into mathematics, but to make epistemic levels explicit.
-
-### 3.1 Typed objects
-
-The paper uses four object classes:
-
-- `Text` for Qur'anic textual units treated as canonically transmitted Arabic text.
-- `Interpretation` for human interpretive propositions about `Text`.
-- `Data` for empirical observations, measurements, or processed evidential records.
-- `Model` for scientific explanatory structures built to account for `Data`.
-
-In notation:
-
-- `Q ∈ Text`
-- `Ti(Q) ∈ Interpretation`
-- `D ∈ Data`
-- `Mj(D) ∈ Model`
-
-`Ti(Q)` is not identical to `Q`; it is an interpretive proposition generated from `Q` under linguistic, contextual, and usul-based constraints. Likewise, `Mj(D)` is not identical to `D`; it is a model or model-family built to explain, organize, predict, or infer from `D`.
-
-### 3.2 Bridge relation
-
-ETC defines a bridge relation:
-
-`Bridge(Q, Ti(Q))`
-
-This relation indicates that an interpretation claims textual warrant from `Q`. A public claim of conflict with the Qur'an is formally incomplete unless it specifies the bridge from `Q` to a concrete `Ti(Q)`.
-
-### 3.3 Conflict predicate
-
-ETC defines:
-
-`Conflict(x, y)`
-
-as a relation of asserted incompatibility. The relation is meaningful only when the comparison is licensed by type or by an explicit bridge.
-
-ETC treats the following as meaningful by default:
-
-- `Conflict(Mj(D), Ti(Q))`
-- `Conflict(Mj1(D), Mj2(D))`
-- `Conflict(Ti(Q), Tk(Q))`
-
-ETC treats `Conflict(Mj(D), Q)` as ill typed unless the relevant interpretive bridge is made explicit. That is the model's main diagnostic move.
-
-### 3.4 Diagnosis and restricted revision
-
-The model distinguishes `type_error`, `interpretive_conflict`, `model_conflict`, `mixed_conflict`, and `unresolved`. The point is not to resolve every disagreement automatically. The point is to say where the disagreement lives.
-
-A public conflict claim must therefore specify the epistemic level it is targeting; otherwise it is classified as `type_error`.
-
-Revision is restricted. `Q` is not revised as text. `Ti(Q)` may be revised under tafsir constraints. `Mj(D)` may be revised under scientific constraints. ETC therefore rejects the automatic move from certainty of transmission to certainty of every interpretation.
-
-This is not an anti-science move. It is a type discipline.
-
-## 4. Worked Example: Common Ancestry vs Common Design
-
-The paper uses one worked example: human origins framed as common ancestry versus common design.
-
-The tafsir side often begins with a small set of textual motifs such as creation from earth, Adam, and human unity, then moves to stronger propositions like “Adam must be the first biological human with no biological ancestry” or “humanity must pass through a single-couple genetic bottleneck.” ETC classifies those stronger propositions as `Ti(Q)`, not as `Q`, unless a special hermeneutic argument is provided.
-
-The science side is treated as `D` plus `Mj(D)`. Common ancestry is treated as a model family in mainstream biology. Common design, however, is not automatically treated as a scientific model in the strict sense. Unless it is formulated with discriminating, testable expectations relative to `D`, ETC treats common design as an interpretive or metaphysical alternative rather than as a direct model competitor.
-
-That distinction matters. If someone states `Conflict(Mj_CA, Q_human)` without an interpretive bridge, ETC marks it as a type error. If the statement is decomposed into `Conflict(Mj_CA, Ti_firstHuman)`, then the conflict becomes meaningful and can be analyzed under the relevant constraints.
-
-The worked example therefore demonstrates ETC's basic claim: many public disputes are not solved by declaring one side right. They are clarified by identifying the epistemic level at which the disagreement actually occurs.
-
-## 5. Discussion
-
-ETC contributes a discipline of conflict location. It does not replace tafsir, and it does not replace scientific inquiry. It makes explicit the objects being compared, the bridge used to connect text to interpretation, and the constraints that govern revision.
-
-This matters because scientific exegesis debates often fail for a simple reason: the bridge is implicit, and the revision policy is implicit. ETC makes both explicit. That allows the paper to preserve two things at once: the fixity of the transmitted text and the revisability of interpretation under adequate warrant.
-
-The model also avoids two opposite errors. On one side is concordism, where scientific fit is treated as proof. On the other side is textual immunization, where any favored interpretation is treated as untouchable. ETC rejects both.
-
-## 6. Limitations
-
-The model depends on how `qath'i al-dalāla` is argued. It does not settle every hermeneutic dispute, and it does not prove the truth or falsity of common ancestry, common design, or any other scientific proposal.
-
-The worked example is intentionally narrow. A submission-ready version should add a textual appendix with specific verses, Arabic text, transliteration, and translation, plus a clearer account of the scientific bibliography used for the worked example.
-
-The current literature base is also uneven. It is strong on critique of scientific exegesis and on formal machinery for belief revision and data/model distinctions, but it still needs more direct usul and tafsir anchors for the `qat'i al-thubut` versus `zanni al-dalāla` boundary rule.
-
-## 7. Conclusion
-
-The phrase “science versus the Qur'an” is often too coarse to be analytically useful. The more precise question is whether a scientific model conflicts with a specific human tafsir, and whether that tafsir is actually revisable under hermeneutic constraints.
-
-ETC does not claim to resolve every conflict. It claims something narrower and more defensible: before arguing about reconciliation, we should first classify the epistemic objects correctly.
-
-## References
-
-This bibliography is partial and intentionally limited to sources already present in the current corpus.
-
-- Alchourrón, C. E., Gärdenfors, P., & Makinson, D. (1985). On the Logic of Theory Change: Partial Meet Contraction and Revision Functions. *The Journal of Symbolic Logic*, 50(2), 510-530. https://doi.org/10.2307/2274239
-- Ansari, Z. I. (2004). The Scientific Exegesis (Tafsīr) of the Qur'an. *Al-Fikr al-islāmī al-muʿāṣir*, 9(35). https://doi.org/10.35632/citj.v9i35.1449
-- Antoniou, A. (2021). What is a data model? An anatomy of data analysis in high energy physics. *European Journal for Philosophy of Science*. https://doi.org/10.1007/s13194-021-00412-2
-- Bigliardi, S. (2025). *Islam and Pseudoscience*. Cambridge Elements. https://doi.org/10.1017/9781009608237
-- Delgrande, J. P., & Schaub, T. (2003). A consistency-based approach for belief change. *Artificial Intelligence*. https://doi.org/10.1016/S0004-3702(03)00111-5
-- Khalil, I. (1991). The Qur'an and Modern Science: Observations on Methodology. *American Journal of Islam and Society*, 8(1), 1-13. https://doi.org/10.35632/ajis.v8i1.2641
-- Leonelli, S. (2019). What distinguishes data from models? *European Journal for Philosophy of Science*, 9, Article 22. https://doi.org/10.1007/s13194-018-0246-0
-- Long, Z., Meng, H., Li, T., Li, H.-C., & Sioutis, M. (2022). A framework for belief revision under restrictions. *The Knowledge Engineering Review*, 37:54. https://doi.org/10.1017/S0269888922000054
-- Mir, M. (2004). Scientific Exegesis of the Qur'an—A Viable Project? *Journal of Islam & Science*, 2(1).
-- Mohd-Noor, A. Y. (2013). *Scientific Exegesis Reappraised: A Critical Study of the al-Jawāhir fī Tafsīr al-Qur'ān al-Karīm* (Doctoral thesis). Durham University. https://etheses.dur.ac.uk/9390/
-- Naguib, S. (2019). The Hermeneutics of Miracle… Part I. *Journal of Qur'anic Studies*, 21(3), 57-88. https://doi.org/10.3366/jqs.2019.0399
-- Okasha, S. (2002). *Philosophy of Science: A Very Short Introduction*. Oxford University Press. https://doi.org/10.1093/actrade/9780192802835.001.0001
-- Sober, E. (2008). *Evidence and Evolution: The Logic Behind the Science*. Cambridge University Press.
-- Futuyma, D. J., & Kirkpatrick, M. (2017). *Evolution* (4th ed.). Sinauer Associates.
-- Saleh, W. A. (2004). *The Formation of the Classical Tafsir Tradition*. Oxford University Press.
-- Saeed, A. (2006). *Interpreting the Qur'an*. Routledge.
-- Shah, M. A. S., & Abdel Haleem, M. (eds.). (2020). *The Oxford Handbook of Qur'anic Studies*. Oxford University Press.
-- Hallaq, W. B. (1997). *A History of Islamic Legal Theories*. Cambridge University Press.
-- Weisberg, M. (2013). *Simulation and Similarity*. Oxford University Press.
-- Morgan, M. S., & Morrison, M. (eds.). (1999). *Models as Mediators*. Cambridge University Press.
+ETC uses a minimal formal language. The aim is not to turn tafsir into mathematics, but to make epistemic levels explicit. ...
