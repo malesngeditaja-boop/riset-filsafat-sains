@@ -75,3 +75,8 @@ Scope memo:
 3) Decide how you want to treat “common design” (explicitly metaphysical/interpretive vs a scientific competitor) and make the framing consistent throughout.
 4) Optional: expand worked example with a few additional vetted biology/philosophy-of-biology citations if required by the journal.
 5) Run a final reviewer pass after target journal is selected.
+
+## New manager artifacts
+
+- `agent_reports/SOURCE_STATUS_TABLE_ETC.md` — locked tags + what can be cited for core claims.
+- `agent_reports/CORPUS_LOCK_ETC.md` — corpus policy for submission drafting.
